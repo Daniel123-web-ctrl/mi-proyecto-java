@@ -2,7 +2,7 @@
 public class mourodev1 {
 
     
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         
     String name ="Daniel"; 
     var surname=new String("Ramos");
@@ -35,7 +35,7 @@ public class mourodev1 {
            
            // format       
         var age =25;
-        System.out.println(String.format("hola ,%s . Tengo  %d , años ." , name,age));
+        System.out.println(String.format("hola ,%s . Tengo  %d ." , name));
         
 }
 }
