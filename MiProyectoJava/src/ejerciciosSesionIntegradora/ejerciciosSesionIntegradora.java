@@ -5,7 +5,9 @@ public class ejerciciosSesionIntegradora {
 
     
     public static void main(String[] args) {
-       /*
+       e1();
+    }
+    public static void e2(){
          Integer nota;
          String mencion;
          Scanner lector=new Scanner(System.in);
@@ -19,8 +21,11 @@ public class ejerciciosSesionIntegradora {
              default-> "nota invalida ";
                  
          };
-              System.out.printf("usted obtuvo la mencion de %s " ,mencion);  
-       */
+              System.out.printf("usted obtuvo la mencion de %s " ,mencion); 
+              
+       }
+
+    public static void e1(){
        int operacion;
        int num1;
        int num2;
@@ -59,6 +64,6 @@ public class ejerciciosSesionIntegradora {
             
        };
         System.out.printf("El resultado de la operacion es %2f", resultado);
-    }
-    
+        
+}
 }
